@@ -6,7 +6,7 @@
  */
 public class Product {
 
-    private String code;
+    private  String code;
     private String name;
     private Double price;
 

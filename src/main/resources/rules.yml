@@ -1,9 +1,16 @@
+#  FreeRule (buy N get N free)
+#  ReducedPriceRule (buy more than N pay a different price)
+#  FractionPriceRule (buy more than N, pay a percentage of the original price)
 
 
-code: SR1
-name: Strawberries
-price: 5
+- rule 1:
+  buyN: 2
+  GetNfree: 2
 
-code: CF1
-name: Coffee
-price: 11.23
+- rule 2:
+  buyMoreThanN: 10
+  ReducedPrice: -20
+
+- rule 3:
+  buyMoreThanN: 20
+  FractionPrice: 10%

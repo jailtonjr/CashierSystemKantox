@@ -14,7 +14,7 @@ import java.util.Properties;
  */
 public final class Util {
 
-    public static Iterable<Object> loadFromYamlFile(String path) {
+    public static Iterable<Object> loadProductsFromYamlFile(String path) {
         Yaml yaml = new Yaml();
         InputStream in = Util.class.getResourceAsStream(path);
         Iterable<Object> list = yaml.loadAll(in);
