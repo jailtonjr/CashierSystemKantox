@@ -3,9 +3,9 @@
 #ReducedPriceRule (buy more than N pay a different price)
 #FractionPriceRule (buy more than N, pay a percentage of the original price)
 
-Feature: All car checkout validations test cases
+Feature: All cart checkout validations test cases
   As a user a want to purchase as many products I want
-  During the purchase checkout all relative discounts will be properly applied
+  During the order checkout all relative discounts will be properly applied
 
   Background:
     Given All products are loaded from the YAML file
